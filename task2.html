@@ -1,0 +1,41 @@
+<html></html>
+    <head>
+        <script src="task.js"></script>
+    </head>
+    <body>
+      <table>
+        <tr>
+            <td>Email <span style="color:red">*</span></td>
+            <td>
+                <input
+                    type="text"
+                    placeholder="Enter your email"
+                    id="email"
+                    name=""
+                    onchange="return getEmail();"
+                    />
+            </td>
+        </tr>
+        <tr>
+            <td>Password </td>
+            <td>
+                <input
+                    type="text"
+                    placeholder="Enter your password"
+                    id="password"
+                    name=""
+                    onkeyup="return getPassword();"
+                />
+            </td>
+      </tr>
+      <tr>
+            <td></td>
+            <td>
+                <button type="login" onclick="return collectFormData();">
+                     Login
+                </button>
+            </td>
+      </tr>
+      </table>
+    </body>
+</html>
